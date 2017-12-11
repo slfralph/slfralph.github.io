@@ -106,8 +106,6 @@ a:hover {
   border-radius: 25px;
 }
 
-/*END GLOBAL STUFF*/
-
 .landing {
   position: relative;
   /*min-height: 800px;*/
@@ -221,18 +219,22 @@ header ul li {
 }
 
 .construction h2 {
-  margin: 0 .75em .75em;
+  margin: .5em;
   font-size: 2.75em;
   font-weight: 500;
 }
 
 .construction img {
-  height: 20%;
-  width: 20%;
+  height: 15%;
+  width: 15%;
 }
 
 .construction p {
-  margin: .5em .5em 1em .5em;
+  margin: .5em;
+}
+
+.construction a {
+  font-weight: bold;
 }
 
 footer {
