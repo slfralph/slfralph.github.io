@@ -1,6 +1,7 @@
 body {
   background: #fff;
   font-family: 'Open Sans', 'Concert One', Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 * {
@@ -255,4 +256,23 @@ footer a {
 
 footer a:hover {
   color: #153972;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 900px) {
+  .contain-80 {
+    width: 99%;
+  }
+
+  .work-block-container {
+    padding: 1em 0;
+  }
+
+  .work-block {
+    padding: 1em 0;
+    width: 75%;
+    display: block;
+    margin: auto;
+  }
 }
