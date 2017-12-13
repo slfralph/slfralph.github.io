@@ -100,7 +100,7 @@ a:hover {
 }
 
 .bordered-background {
-  background: rgba(255, 255, 255, .9);
+  background: rgba(255, 255, 255, .75);
 }
 
 .curve-25 {
@@ -261,8 +261,12 @@ footer a:hover {
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 900px) {
+  .greeting h1 {
+    font-size: 4.5em;
+  }
+
   .contain-80 {
-    width: 99%;
+    width: 97%;
   }
 
   .work-block-container {
