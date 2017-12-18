@@ -48,7 +48,7 @@ a:hover {
 
 .work-container {
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding-bottom: 4em;
 }
@@ -176,11 +176,15 @@ header ul li {
   font-weight: 300;
 }
 
+.work-block-container {
+  display: inline-block;
+  width: 26%;
+}
+
 .work-block {
   position: relative;
   display: inline-block;
-  width: 26%;
-  margin: 10px 10px;
+  width: 85%;
   border: 3px solid #5170a0;
   border-radius: 25px;
   max-width: 350px;
@@ -285,13 +289,15 @@ footer a:hover {
   }
 
   .work-block-container {
+    display: block;
     padding: 1em 0;
+    margin: auto;
+    width: 80%;
   }
 
   .work-block {
     padding: 1em 0;
     width: 75%;
-    display: block;
     margin: auto;
   }
 }
