@@ -53,6 +53,10 @@ a:hover {
   padding-bottom: 4em;
 }
 
+.pad-half-em {
+  padding: .5em;
+}
+
 .sec {
   text-align: center;
   padding-top: 4em;
