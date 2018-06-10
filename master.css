@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  padding: 2em 0;
+  text-align: center;
+}
+
 a:hover {
   color: #5170a0;
 }
@@ -24,6 +29,10 @@ a:hover {
 
 .landing-background {
   background: #d6e4f9;
+}
+
+.off-white-background {
+  background: #eee;
 }
 
 .main-text-color {
@@ -62,10 +71,6 @@ a:hover {
   padding-top: 4em;
 }
 
-.sec h2 {
-  margin-bottom: 1em;
-}
-
 .pull-left {
   float: left;
 }
@@ -85,7 +90,7 @@ a:hover {
 .section-heading {
   font-size: 3em;
   font-weight: 450;
-  padding-top: 50px;
+  padding-top: .5em;
   text-align: center;
 }
 
@@ -113,9 +118,7 @@ a:hover {
 
 .landing {
   position: relative;
-  /*min-height: 800px;*/
-  height: 100vh;
-  /*background: linear-gradient(rgba(208, 220, 239, 1), rgba(175, 186, 204, .8));*/
+  min-height: 50vh;
 }
 
 header {
@@ -170,9 +173,7 @@ header ul li {
 }
 
 .recent-work-sub-heading {
-  margin: auto;
   text-align: center;
-  padding: 2em 0;
 }
 
 .recent-work-sub-heading h2 {
