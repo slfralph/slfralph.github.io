@@ -293,6 +293,10 @@ footer a:hover {
     width: 95%;
   }
 
+  .contain-85 {
+    width: 95%;
+  }
+
   .work-block-container {
     display: block;
     padding: 1em 0;
