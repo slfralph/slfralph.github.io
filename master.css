@@ -19,11 +19,19 @@ a:hover {
 
 
 .landing-background {
+  background: #4e4e50;
+}
+
+.breaker-color {
   background: #d6e4f9;
 }
 
 .off-white-background {
   background: #eee;
+}
+
+.white-text {
+  color: #eee;
 }
 
 .main-text-color {
@@ -83,6 +91,9 @@ a:hover {
 
 .landing {
   height: 100vh;
+  background-image: url("images/warmpoly.png");
+  background-size: cover;
+  opacity: .9;
 }
 
 .greeting {
