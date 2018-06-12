@@ -2,8 +2,6 @@ body {
   background: #fff;
   font-family: 'Open Sans', 'Concert One', Helvetica, sans-serif;
   font-size: 16px;
-  min-width: 270px;
-  min-height: 600px;
 }
 
 * {
@@ -11,17 +9,8 @@ body {
   padding: 0;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 p {
   padding: 2em 0;
-  text-align: center;
 }
 
 a:hover {
@@ -49,6 +38,7 @@ a:hover {
   width: 90%;
   height: 100%;
   margin: auto;
+  text-align: center;
 }
 
 .sec {
@@ -84,18 +74,20 @@ a:hover {
   background: rgba(255, 255, 255, .75);
 }
 
-.landing {
-  height: 100vh;
-  width: auto;
+.flex-col {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.landing {
+  height: 100vh;
+}
+
 .greeting {
   padding: .5em;
-  font-size: 3.5em;
+  font-size: 4em;
   font-weight: 500;
   text-align: center;
 }
